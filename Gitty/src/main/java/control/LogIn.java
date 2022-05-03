@@ -33,30 +33,22 @@ public class LogIn {
 
         String enteredMail;
         String enteredCode;
-        String readlines;
-        String mailintxt;
 
-        //String codeintxt;
-        readlines=reader.readLine();
-        //mailintxt= String.valueOf(reader.readLine());
-        //codeintxt=String.valueOf(reader.readLine());
+        String readlines;
 
         enteredMail = fieldMail.getText();
         enteredCode = fieldCode.getText();
+        readlines=reader.readLine();
 
         //randomaccess file til at finde specifik linje
 
-
-
-        while(readlines!=null){ //læser ligner i dokument
-
+        while(readlines!=null){ //ready from
 
             String[] infosplit = readlines.trim().split("\\s+");
             String mailfromtxt = infosplit[0]; // mail
             String codefromtxt = infosplit[1]; // code
             String rolefromtxt = infosplit[3]; // role
-            //String codefromtxt = infosplit[1]; // firstname
-            //String codefromtxt = infosplit[1]; // last name
+
 
 
             if(enteredMail.equalsIgnoreCase(mailfromtxt) && enteredCode.equals(codefromtxt)){
@@ -75,13 +67,6 @@ public class LogIn {
             readlines=reader.readLine();
 
         }
-
-
-
-
-
-
-
 
     }
 }
