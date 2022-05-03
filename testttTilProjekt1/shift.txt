@@ -1,0 +1,5 @@
+starttidspunkt
+lokation
+længde af vagt
+bod navn
+medarbejder som har fået vagt

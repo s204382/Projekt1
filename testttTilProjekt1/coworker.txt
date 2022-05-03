@@ -1,0 +1,5 @@
+navn
+tlf
+mail
+kode
+rolle
