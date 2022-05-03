@@ -1,0 +1,2 @@
+medarbejder starttidspunkt lokation længde bod
+charlotte 12:00 lokation 2 kitty
